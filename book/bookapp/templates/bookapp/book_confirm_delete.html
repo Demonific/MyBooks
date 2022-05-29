@@ -1,0 +1,7 @@
+<form method=post>
+	{% csrf_token %}
+	<p>
+	Are you sure you wish to delete <b>"{{ object }}"</b><br><br>
+	</p>
+	<input type=submit value=Delete>
+<form>
